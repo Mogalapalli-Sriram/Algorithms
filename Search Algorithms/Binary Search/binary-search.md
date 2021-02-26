@@ -16,7 +16,7 @@ Browser developer tools
 * Search of an element can be at any position (eg. middle) of an array ignoring half of  array elements in which specified element is not found.
 
 ## Time Complexity of Binary Search and Why binary search
-Assume if we hava an array of 50 values, if we need to search the end values  of array,we can use Linear Search as well as Binary search. It s not a problem.
+Assume if we have an array of 50 values, if we need to search the end values  of array,we can use Linear Search as well as Binary search. It s not a problem.
 
 Now Assume if we have 10,000 values,now if we need to search the end values using Linear search,it takes a lot of time compared to Binary Search.
 
