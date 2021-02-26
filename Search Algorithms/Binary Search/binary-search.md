@@ -28,7 +28,7 @@ Write a function  named binary search which accepts an array and specified numbe
 
 4.) while the left pointer is always  before or equal to the right pointer and while middle pointer is not at the specified value.
 
-If the position of middle pointer is at a value less than specified value,move right pointer down(i.e towards left)keeping left pointer fixed.
+* If the position of middle pointer is at a value less than specified value,move right pointer down(i.e towards left)keeping left pointer fixed.
 
 * If the position of middle pointer is at a value greater than specified value, move left pointer up(i.e towards right) keeping right pointer fixed.
 
