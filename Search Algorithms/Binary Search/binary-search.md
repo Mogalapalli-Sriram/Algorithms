@@ -2,7 +2,7 @@
 
 
 ## Program Statement
-Write a function  named binary search which accepts an array and specified number(to be searched) as inputs and returns the index(position) of an element in that array.If no specified number in array, returns  the value -1 ?
+Write a function  named binary search which accepts an array and specified number(to be searched) as inputs and returns the index(position) of an element in that array.If no specified number in array,returns the value -1 ?
 
 <br>
 
@@ -15,7 +15,7 @@ Write a function  named binary search which accepts an array and specified numbe
 * Open browser developer tools.
 * Head over to source and create a new snippet.
 * Copy and Paste the code [BinarySearch](./binary-search.js) js file. 
-* Execute with different inputs. 
+* Execute with different inputs in the console. 
 
 <br>
 
@@ -34,7 +34,7 @@ Write a function  named binary search which accepts an array and specified numbe
 
 * Change the middle pointer to a new position which is the new average value of left and right pointer.
 
-* Continue with a number of iterations until specified is approached.
+* Continue with a number of iterations until specified value is approached.
 
 5.) If the specified value is found,return the index of the specified element.
 
@@ -50,10 +50,10 @@ Write a function  named binary search which accepts an array and specified numbe
 2.) binarySearch ( [1,2,3,4,5],5 )    
     output :  4
 
-3.) binarySearch( [1,2,3,4,5],6 )     
+3.) binarySearch ( [1,2,3,4,5],6 )     
     output : -1
 
-4.) binarySearch([                    
+4.) binarySearch ([                    
     53,54,64,73,79,85,110,129,
     157,173,185], 129)
     output :  7
