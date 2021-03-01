@@ -13,8 +13,7 @@ Write a function  named binary search which accepts an array and specified numbe
 
 ## Run the code
 * Open browser developer tools.
-* Head over to source and create a new snippet.
-* Copy and Paste the code [BinarySearch](./binary-search.js) js file. 
+* Copy and Paste the code [BinarySearch](./binary-search.js) js file in the source. 
 * Execute with different inputs in the console. 
 
 <br>
@@ -77,11 +76,11 @@ Now Assume if we have 10,000 values,now if we need to search the end values usin
  |------------------- |:------------------ |:---------------    |
  |                    |  Worst Case        |          Best Case |
  |Linear search       |  O(N)              |          O(1)      |
- |Binary search       |  O(NlogN)          |          O(1)      |
+ |Binary search       |  O(logN)          |          O(1)      |
 
 
 Even in Worst Case Binary search is better than Linear search since
-O(NlogN) < O(N)
+O(logN) < O(N)
 
 <br>
 
