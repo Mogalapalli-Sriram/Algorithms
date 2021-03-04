@@ -1,11 +1,7 @@
-
-//Helper method has a main function(outer function)  and helper function(recursive) inside the main function
-//function to find the odd numbers in an array
 function collectOdd(arr)
 {
-var oddArr = [];
+let oddArr = [];
 function helper(helperInput) {
-
     if(helperInput.length === 0)
     {
         return;

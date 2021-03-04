@@ -1,9 +1,8 @@
-/*Using sliding window pattern,whichaccept an array and number(n) as inputs 
-and return the maximum sum of the consecutive n values of an array */
+
 function maxSubarraySum(arr,n) {
-    var maxSum = 0;
-    var tempSum = 0;
-    for(var i = 0;i<n;i++)
+    let maxSum = 0;
+    let tempSum = 0;
+    for(let i = 0;i<n;i++)
     {
        maxSum += arr[i];
     }
@@ -18,21 +17,21 @@ function maxSubarraySum(arr,n) {
     
     }
 
+
  // normal method
  function maxSubarraySum(arr,n) {
-    var sum = 0;
-    var maxSumArray = [];
+    let sum = 0;
+    let maxSumArray = [];
     for(var i = 0; i<arr.length-(n-1);i++)
     {
-        for(var j = i; j<n+i;j++)
+        for(let j = i; j<n+i;j++)
         {
            sum += arr[j];
         }
          maxSumArray.push(sum);
         sum = 0
     }
-  console.log(maxSumArray);
-  var max = maxSumArray.reduce(function(a,b) {
+  let max = maxSumArray.reduce(function(a,b) {
        return Math.max(a,b);
    });
 return max;

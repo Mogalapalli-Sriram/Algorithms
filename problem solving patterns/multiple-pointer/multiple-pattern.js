@@ -2,9 +2,9 @@
 containing a pair of numbers whose sum is zero*/
 function sumZero(arr)
 {
-    var left = 0;
-    var right = arr.length-1;
- var sum = arr[left] + arr[right];
+    let left = 0;
+    let right = arr.length-1;
+    let sum = arr[left] + arr[right];
     while(left < right)
     {
         
@@ -26,16 +26,16 @@ function sumZero(arr)
 
 // normal solution without multiple pointers
 function sumZero(arr) {
-for(var i = 0; i<arr.length;i++)
-{
-    for(var j = 0; j<arr.length;j++)
+for(let i = 0; i<arr.length;i++)
+ {
+    for(let j = 0; j<arr.length;j++)
     {
         if(arr[i] + arr[j] === 0)
         {
             return [arr[i],arr[j]];
         }
     }
-
-    }
-
+ }
 }
+
+console.log(sumZero([-5,-4,-3,-2,-1,0,1,2,3,4]));

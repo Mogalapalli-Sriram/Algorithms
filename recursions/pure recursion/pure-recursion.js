@@ -1,7 +1,5 @@
-//Pure recursion method to find the odd numbers in an array
-
 function collectOdd(arr) {
-    var oddArr = [];
+    let oddArr = [];
     if(arr.length === 0)
     {
         return oddArr;

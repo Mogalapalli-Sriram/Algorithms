@@ -1,8 +1,7 @@
 function binarySearch(arr,value) {
-var left = 0;
-var right = (arr.length-1);
-var middle = Math.floor((left + right)/2);
-console.log(left,middle,right);
+let left = 0;
+let right = (arr.length-1);
+let middle = Math.floor((left + right)/2);
 while(arr[middle]!== value && (left <= right) )
 {
    if(value > arr[middle])
@@ -19,3 +18,5 @@ if(arr[middle] === value)
        } 
      return -1;
 }
+
+console.log(binarySearch([1,2,3,4,5],2));

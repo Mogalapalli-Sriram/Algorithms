@@ -2,9 +2,9 @@
 
 // function definition which will be called recursively to merge the two array and store them in a new merged array
 function  merge(arr1,arr2) {
-    var merged = [];
-    var i = 0;
-    var j = 0;
+    let merged = [];
+    let i = 0;
+    let j = 0;
     while(i<arr1.length && j<arr2.length)
     {
         if(arr1[i] < arr2[j]) {
@@ -15,7 +15,7 @@ function  merge(arr1,arr2) {
             j++;
         }
     }
-    // for remaining elements
+  // for remaining elements
     while(i<arr1.length)
     {
         merged.push(arr1[i]);
