@@ -28,4 +28,4 @@ Each and every data structure have their own application and each of them excel 
 
  ## Why do we need Data Structures
 
- As a developer, we will face the situations of handling complicated and complex information,if we should establish different different ways of relationship among the data,we need the kind of data structures based on different situations.
+ As a developer, we will face the situations of handling complicated and complex information,if we should establish different ways of relationship among the data,we need the kind of data structures based on different situations.
