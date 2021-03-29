@@ -243,4 +243,4 @@ If we deal with data where random access in not required and only adding the dat
 <br>
 
 code implementation link
-[singlyLinkedList]("./src")
+[singlyLinkedList](./src)

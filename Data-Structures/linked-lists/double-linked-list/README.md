@@ -218,7 +218,7 @@ If we want to deal with the complex datas for storing,inserting and deleting and
       * Return the next property of the element at (index-1).
 
    code implementation link
-[doublyLinkedList]("./src")
+[doublyLinkedList](./src)
 
 
 
