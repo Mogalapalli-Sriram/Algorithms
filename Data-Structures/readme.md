@@ -10,7 +10,7 @@ It is termed as a collection of data or pieces of information,a relationship is 
 * Double linked lists
 * Stacks
 * Queues
-* Binaray search trees
+* Binary search trees
 * Graphs
 * Binary Heaps
 * Hash tables

@@ -5,8 +5,35 @@ To create a doubly linked list of the strings and performing all the operations 
 
 <br>
 
+
+
 ## prerequisites
-node js
+node js (>= V13)
+
+<br>
+
+## Setup
+* Clone the repository
+ ```bash 
+ git clone https://github.com/Mogalapalli-Sriram/Algorithms.git algorithms
+ ```
+* Change over to the algorithms directory
+```bash
+cd algorithms
+```
+* Change over to the linked-lists and then double-linked-list
+```bash
+cd linked-lists/double-linked-list
+```
+
+<br>
+
+## Run the code
+* In  Cli,
+``` bash
+node src/dll.js
+```
+* Try with different inputs.
 
 <br>
 
@@ -189,6 +216,9 @@ If we want to deal with the complex datas for storing,inserting and deleting and
       * Set the previous property of the temp to be the node at (index-1).
       * Decrement the length.
       * Return the next property of the element at (index-1).
+
+   code implementation link
+[doublyLinkedList]("./src")
 
 
 

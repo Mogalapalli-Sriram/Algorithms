@@ -6,9 +6,35 @@ To create a singly linked list of the strings and performing all the operations 
 <br>
 
 ## prerequisites
-node js
+node js (>= V13)
 
 <br>
+
+## Setup
+* Clone the repository
+ ```bash 
+ git clone https://github.com/Mogalapalli-Sriram/Algorithms.git algorithms
+ ```
+* Change over to the algorithms directory
+```bash
+cd algorithms
+```
+* Change over to the linked-lists and then singly-linked-list
+```bash
+cd linked-lists/singly-linked-list
+```
+
+<br>
+
+## Run the code
+* In  Cli,
+``` bash
+node src/sll.js
+```
+* Try with different inputs.
+
+<br>
+
 
 ## what is singly linked list? 
 It is a type of linear data structure which is a collection of nodes,such that each node stores a piece of data and a pointer to next node and if last node it has a pointer to null.
@@ -216,5 +242,5 @@ If we deal with data where random access in not required and only adding the dat
 
 <br>
 
-code implemenatation link
-[siglyLinkedList] (./sll.js)
+code implementation link
+[singlyLinkedList]("./src")
